@@ -92,7 +92,7 @@ for submission in subreddit.hot(limit = 100): # Pulling first 100 submissions fr
     warning_sub_dict_posts.clear()
     political_sub_dict_posts.clear()
     political_sub_dict_comments.clear()
-# Printing list of tokens found for each subreddit
+# Printing list of tokens (words) by subreddit that OP on our chosen subreddit participated in
 for k,v in subreddit_tokens.items():
     print(k,v)
 
