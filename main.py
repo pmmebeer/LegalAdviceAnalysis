@@ -62,7 +62,7 @@ def submission_check():
         elif submission.subreddit in political_subreddits:
             political_sub_dict_posts[str(submission.subreddit)] += 1
 
-subreddit = reddit.subreddit('legaladvice')
+subreddit = reddit.subreddit('legaladvice') # Can be modified to be any subreddit
 
 subreddit_tokens = defaultdict(list)
 
